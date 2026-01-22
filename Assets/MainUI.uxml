@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MainStyles.uss?fileID=7433441132597879392&amp;guid=2c185be4000e8754d951cad0b2ab6d2e&amp;type=3#MainStyles" />
+    <ui:VisualElement name="Container" class="main-container">
+        <ui:VisualElement name="Header" class="header">
+            <ui:Label text="ASSET AUDITOR X-WIZARD 3.3" class="header-title" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ViewContent" class="content-area">
+            <ui:VisualElement name="SetupView" class="view">
+                <ui:Label text="Step 1. 指定目标对象" class="section-label" />
+                <ui:Button name="DropZone" text="点击或拖入 Prefab 文件" class="drop-zone" />
+                <ui:Label text="Step 2. 定义资产身份与预设" class="section-label" />
+                <ui:DropdownField name="PresetDropdown" class="dropdown" />
+                <ui:Button name="StartBtn" text="开始自动化质量审计" class="primary-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Footer" class="footer">
+            <ui:Label text="ENGINE: IMMERSIVE_REACT_CORE" class="footer-text" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

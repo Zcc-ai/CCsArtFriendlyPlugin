@@ -1,0 +1,39 @@
+.main-container {
+    flex-grow: 1;
+    background-color: #252525;
+    padding: 25px; /* 增加边距，更有呼吸感 */
+}
+
+.section-label {
+    font-size: 13px;
+    color: #666;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    -unity-font-style: bold;
+    letter-spacing: 1px; /* 增加一点字间距，显得专业 */
+}
+
+.drop-zone {
+    height: 160px; /* 3:4 比例下，高度稍微调低一点点 */
+    background-color: #2a2a2a;
+    border-width: 2px;
+    border-color: #444;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.2s; /* 增加触摸反馈感 */
+}
+
+.primary-button {
+    height: 65px;
+    background-color: #2563EB;
+    color: white;
+    font-size: 20px;
+    -unity-font-style: bold;
+    border-radius: 12px;
+    margin-top: 50px;
+    /* 去掉了 box-shadow */
+    /* 增加一个深蓝色边框代替阴影感 */
+    border-width: 1px;
+    border-color: #1E40AF; 
+}
